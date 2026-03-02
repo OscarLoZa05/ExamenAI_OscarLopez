@@ -56,8 +56,6 @@ public class AIEnemy : MonoBehaviour
             default:
                 Patrolling();
             break;
-
-
         }
     }
 
@@ -71,7 +69,6 @@ public class AIEnemy : MonoBehaviour
         {
             RandomPoints();
         }
-        
     }
 
     void Chasing()
@@ -134,6 +131,5 @@ public class AIEnemy : MonoBehaviour
         {
             Gizmos.DrawWireSphere(_point.position, 1f);
         }
-        
     }
 }
